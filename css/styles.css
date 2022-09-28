@@ -197,20 +197,19 @@ body {
    transform: translateY(0);
    transition: transform var(--transition-speed);
    padding: 63px 24px;
-
 }
   
 .card-link:hover .open-up {   
    transform: translateY(-100%);  
 }
 
-
 .open-up-text {
    font-size: 18px;
    line-height: 1.556;
    letter-spacing: 0.03em;
-   color: #FFFFFF;
+   color:var(--white-color);
 }
+
 .gallery-text {
     padding: 20px 24px  19px;
     border: 1px solid #EEEEEE;
